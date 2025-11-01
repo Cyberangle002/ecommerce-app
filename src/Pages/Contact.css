@@ -1,0 +1,18 @@
+.contact-form {
+  max-width: 500px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}

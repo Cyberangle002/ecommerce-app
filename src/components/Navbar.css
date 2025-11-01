@@ -1,0 +1,70 @@
+/* Navbar Base */
+.navbar {
+  background-color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+.navbar-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 22px;
+  color: #4a00e0;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #333 !important;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+  position: relative;
+}
+
+/* Hover Underline Animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #4a00e0;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active Link */
+.active-link {
+  color: #4a00e0 !important;
+  font-weight: 600;
+}
+
+.btn-cart, .btn-login {
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-cart:hover {
+  background-color: #4a00e0;
+  color: #fff;
+}
+
+.btn-login {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  border: none;
+}
+
+.btn-login:hover {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+}
+
+/* Shadow and Sticky Effect */
+.navbar.scrolled {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

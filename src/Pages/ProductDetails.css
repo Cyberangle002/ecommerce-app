@@ -1,0 +1,44 @@
+.product-details-page {
+  background: linear-gradient(180deg, #fafaff 0%, #ffffff 100%);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.detail-img {
+  border-radius: 12px;
+  max-height: 420px;
+  object-fit: contain;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+h2 {
+  color: #4a00e0;
+  font-weight: 700;
+}
+
+.price {
+  color: #8e2de2;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+}
+
+.btn-outline-dark {
+  border: 2px solid #4a00e0;
+  color: #4a00e0;
+  font-weight: 600;
+}
+
+.btn-outline-dark:hover {
+  background: #4a00e0;
+  color: white;
+}

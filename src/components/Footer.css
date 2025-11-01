@@ -1,0 +1,8 @@
+.footer {
+  background: linear-gradient(90deg, #141E30, #243B55);
+  font-weight: 500;
+}
+.footer:hover {
+  background: linear-gradient(90deg, #243B55, #141E30);
+  transition: 0.4s ease;
+}

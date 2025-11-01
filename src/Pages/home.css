@@ -1,0 +1,67 @@
+.home-page {
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🌅 HERO SECTION */
+.hero-section {
+  background: url("https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1400") center/cover no-repeat;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.hero-content span {
+  color: #00bfff;
+}
+.hero-content p {
+  color: #f1f1f1;
+}
+
+/* 💠 CATEGORY CARDS */
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.category-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+.category-card:hover .category-img {
+  transform: scale(1.1);
+  filter: brightness(70%);
+}
+.category-info {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 0 0 15px 15px;
+}
+
+/* ✨ FEATURES SECTION */
+.features {
+  background: linear-gradient(135deg, #141E30, #243B55);
+}
+.feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.4s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.2);
+}
