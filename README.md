@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 React + Jenkins + Nginx Deployment Project
 
 This project demonstrates automated CI/CD using **Jenkins**, **Node.js**, **NPM**, and **Nginx**.
@@ -25,3 +26,6 @@ To automate the entire deployment process:
 ---
 
 💡 *This README replaces the default Create React App guide.*
+=======
+# ecommerce-app
+>>>>>>> 132bda1aab8cd2dbc4ce7c6c31ff0fb581dcc3c0
