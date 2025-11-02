@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../Context/CartContext";
 import { motion } from "framer-motion";
 import "./ProductDetails.css";
 
